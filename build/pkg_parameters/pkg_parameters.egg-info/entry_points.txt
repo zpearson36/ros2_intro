@@ -1,0 +1,2 @@
+[console_scripts]
+param_node = pkg_parameters.param_node:main
