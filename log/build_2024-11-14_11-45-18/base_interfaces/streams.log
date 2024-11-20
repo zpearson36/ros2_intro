@@ -1,0 +1,52 @@
+[0.015s] Invoking command in '/home/user/School/cs898cd/ros_projects/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/School/cs898cd/ros_projects/build/base_interfaces -- -j1 -l1
+[0.068s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.469s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.481s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.589s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.679s] -- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[1.123s] [31mCMake Error at /opt/ros/rolling/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:57 (message):
+[1.125s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[1.125s]   base_interfaces --arguments-file
+[1.125s]   /home/user/School/cs898cd/ros_projects/build/base_interfaces/rosidl_adapter__arguments__base_interfaces.json
+[1.125s]   --output-dir
+[1.125s]   /home/user/School/cs898cd/ros_projects/build/base_interfaces/rosidl_adapter/base_interfaces
+[1.125s]   --output-file
+[1.125s]   /home/user/School/cs898cd/ros_projects/build/base_interfaces/rosidl_adapter/base_interfaces.idls)
+[1.125s]   returned error code 1:
+[1.125s] 
+[1.125s]   Traceback (most recent call last):
+[1.126s] 
+[1.126s]     File "<frozen runpy>", line 198, in _run_module_as_main
+[1.126s]     File "<frozen runpy>", line 88, in _run_code
+[1.126s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[1.126s]       sys.exit(main())
+[1.126s]                ^^^^^^
+[1.129s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/main.py", line 53, in main
+[1.129s]       abs_idl_file = convert_to_idl(
+[1.129s]                      ^^^^^^^^^^^^^^^
+[1.129s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[1.129s]       return convert_msg_to_idl(
+[1.129s]              ^^^^^^^^^^^^^^^^^^^
+[1.129s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[1.129s]       msg = parse_message_string(package_name, input_file.stem, content)
+[1.129s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.129s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 545, in parse_message_string
+[1.129s]       msg = MessageSpecification(pkg_name, msg_name, fields, constants)
+[1.130s]             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+[1.130s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 389, in __init__
+[1.130s]       self.base_type = BaseType(
+[1.130s]                        ^^^^^^^^^
+[1.130s]     File "/opt/ros/rolling/lib/python3.12/site-packages/rosidl_adapter/parser.py", line 206, in __init__
+[1.130s]       raise InvalidResourceName(
+[1.135s] 
+[1.135s]   rosidl_adapter.parser.InvalidResourceName: 'student' is an invalid message
+[1.135s]   name.  It should have the pattern '^[A-Z][A-Za-z0-9]*$'
+[1.135s] 
+[1.135s] Call Stack (most recent call first):
+[1.135s]   /opt/ros/rolling/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:132 (rosidl_adapt_interfaces)
+[1.135s]   CMakeLists.txt:16 (rosidl_generate_interfaces)
+[1.135s] 
+[1.135s] [0m
+[1.135s] -- Configuring incomplete, errors occurred!
+[1.143s] gmake: *** [Makefile:226: cmake_check_build_system] Error 1
+[1.146s] Invoked command in '/home/user/School/cs898cd/ros_projects/build/base_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/School/cs898cd/ros_projects/build/base_interfaces -- -j1 -l1

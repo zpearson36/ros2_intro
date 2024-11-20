@@ -1,0 +1,3 @@
+[console_scripts]
+listener = pkg_myname.listener:main
+speaker = pkg_myname.speaker:main

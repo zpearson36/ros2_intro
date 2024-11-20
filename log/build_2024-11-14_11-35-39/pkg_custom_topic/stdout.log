@@ -1,0 +1,39 @@
+running egg_info
+creating ../../build/pkg_custom_topic/pkg_custom_topic.egg-info
+writing ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/PKG-INFO
+writing dependency_links to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/dependency_links.txt
+writing entry points to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/entry_points.txt
+writing requirements to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/requires.txt
+writing top-level names to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/top_level.txt
+writing manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+reading manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+writing manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+running build
+running build_py
+creating /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build
+creating /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib
+creating /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic
+copying pkg_custom_topic/listener.py -> /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic
+copying pkg_custom_topic/speaker.py -> /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic
+copying pkg_custom_topic/__init__.py -> /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic
+running install
+running install_lib
+creating /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic
+copying /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic/listener.py -> /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic
+copying /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic/speaker.py -> /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic
+copying /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic/__init__.py -> /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic
+byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic/listener.py to listener.cpython-312.pyc
+byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic/speaker.py to speaker.cpython-312.pyc
+byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic/__init__.py to __init__.cpython-312.pyc
+running install_data
+creating /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/share/ament_index
+creating /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/share/ament_index/resource_index
+creating /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/share/ament_index/resource_index/packages
+copying resource/pkg_custom_topic -> /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/share/ament_index/resource_index/packages
+copying package.xml -> /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/share/pkg_custom_topic
+running install_egg_info
+Copying ../../build/pkg_custom_topic/pkg_custom_topic.egg-info to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic-0.0.0-py3.12.egg-info
+running install_scripts
+Installing listener script to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/pkg_custom_topic
+Installing speaker script to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/pkg_custom_topic
+writing list of installed files to '/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log'

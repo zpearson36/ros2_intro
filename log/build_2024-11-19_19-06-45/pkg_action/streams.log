@@ -1,0 +1,25 @@
+[0.792s] Invoking command in '/home/user/School/cs898cd/ros_projects/src/pkg_action': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_action/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_action/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_action build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_action/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_action/install.log --single-version-externally-managed install_data
+[1.063s] running egg_info
+[1.081s] writing ../../build/pkg_action/pkg_action.egg-info/PKG-INFO
+[1.081s] writing dependency_links to ../../build/pkg_action/pkg_action.egg-info/dependency_links.txt
+[1.082s] writing entry points to ../../build/pkg_action/pkg_action.egg-info/entry_points.txt
+[1.082s] writing requirements to ../../build/pkg_action/pkg_action.egg-info/requires.txt
+[1.082s] writing top-level names to ../../build/pkg_action/pkg_action.egg-info/top_level.txt
+[1.126s] reading manifest file '../../build/pkg_action/pkg_action.egg-info/SOURCES.txt'
+[1.127s] writing manifest file '../../build/pkg_action/pkg_action.egg-info/SOURCES.txt'
+[1.127s] running build
+[1.128s] running build_py
+[1.128s] copying pkg_action/action_server.py -> /home/user/School/cs898cd/ros_projects/build/pkg_action/build/lib/pkg_action
+[1.128s] running install
+[1.134s] running install_lib
+[1.153s] copying /home/user/School/cs898cd/ros_projects/build/pkg_action/build/lib/pkg_action/action_server.py -> /home/user/School/cs898cd/ros_projects/install/pkg_action/lib/python3.12/site-packages/pkg_action
+[1.154s] byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_action/lib/python3.12/site-packages/pkg_action/action_server.py to action_server.cpython-312.pyc
+[1.155s] running install_data
+[1.155s] running install_egg_info
+[1.175s] removing '/home/user/School/cs898cd/ros_projects/install/pkg_action/lib/python3.12/site-packages/pkg_action-0.0.0-py3.12.egg-info' (and everything under it)
+[1.176s] Copying ../../build/pkg_action/pkg_action.egg-info to /home/user/School/cs898cd/ros_projects/install/pkg_action/lib/python3.12/site-packages/pkg_action-0.0.0-py3.12.egg-info
+[1.176s] running install_scripts
+[1.301s] Installing client script to /home/user/School/cs898cd/ros_projects/install/pkg_action/lib/pkg_action
+[1.301s] Installing server script to /home/user/School/cs898cd/ros_projects/install/pkg_action/lib/pkg_action
+[1.302s] writing list of installed files to '/home/user/School/cs898cd/ros_projects/build/pkg_action/install.log'
+[1.342s] Invoked command in '/home/user/School/cs898cd/ros_projects/src/pkg_action' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_action/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_action/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_action/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_action build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_action/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_action/install.log --single-version-externally-managed install_data

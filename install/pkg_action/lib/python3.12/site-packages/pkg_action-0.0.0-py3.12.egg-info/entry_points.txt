@@ -1,0 +1,3 @@
+[console_scripts]
+client = pkg_action.action_client:main
+server = pkg_action.action_server:main

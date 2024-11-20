@@ -1,0 +1,22 @@
+[1.590s] Invoking command in '/home/user/School/cs898cd/ros_projects/src/pkg_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_service build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_service/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_service/install.log --single-version-externally-managed install_data
+[2.116s] running egg_info
+[2.140s] writing ../../build/pkg_service/pkg_service.egg-info/PKG-INFO
+[2.141s] writing dependency_links to ../../build/pkg_service/pkg_service.egg-info/dependency_links.txt
+[2.142s] writing entry points to ../../build/pkg_service/pkg_service.egg-info/entry_points.txt
+[2.142s] writing requirements to ../../build/pkg_service/pkg_service.egg-info/requires.txt
+[2.143s] writing top-level names to ../../build/pkg_service/pkg_service.egg-info/top_level.txt
+[2.249s] reading manifest file '../../build/pkg_service/pkg_service.egg-info/SOURCES.txt'
+[2.250s] writing manifest file '../../build/pkg_service/pkg_service.egg-info/SOURCES.txt'
+[2.250s] running build
+[2.250s] running build_py
+[2.252s] running install
+[2.265s] running install_lib
+[2.310s] running install_data
+[2.313s] running install_egg_info
+[2.362s] removing '/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages/pkg_service-0.0.0-py3.12.egg-info' (and everything under it)
+[2.362s] Copying ../../build/pkg_service/pkg_service.egg-info to /home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages/pkg_service-0.0.0-py3.12.egg-info
+[2.364s] running install_scripts
+[2.655s] Installing client script to /home/user/School/cs898cd/ros_projects/install/pkg_service/lib/pkg_service
+[2.656s] Installing server script to /home/user/School/cs898cd/ros_projects/install/pkg_service/lib/pkg_service
+[2.659s] writing list of installed files to '/home/user/School/cs898cd/ros_projects/build/pkg_service/install.log'
+[2.727s] Invoked command in '/home/user/School/cs898cd/ros_projects/src/pkg_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_service build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_service/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_service/install.log --single-version-externally-managed install_data

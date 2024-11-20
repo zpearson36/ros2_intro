@@ -1,0 +1,28 @@
+[1.630s] Invoking command in '/home/user/School/cs898cd/ros_projects/src/pkg_myname': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_myname/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_myname build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_myname/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_myname/install.log --single-version-externally-managed install_data
+[2.181s] running egg_info
+[2.227s] writing ../../build/pkg_myname/pkg_myname.egg-info/PKG-INFO
+[2.227s] writing dependency_links to ../../build/pkg_myname/pkg_myname.egg-info/dependency_links.txt
+[2.229s] writing entry points to ../../build/pkg_myname/pkg_myname.egg-info/entry_points.txt
+[2.229s] writing requirements to ../../build/pkg_myname/pkg_myname.egg-info/requires.txt
+[2.229s] writing top-level names to ../../build/pkg_myname/pkg_myname.egg-info/top_level.txt
+[2.315s] reading manifest file '../../build/pkg_myname/pkg_myname.egg-info/SOURCES.txt'
+[2.317s] writing manifest file '../../build/pkg_myname/pkg_myname.egg-info/SOURCES.txt'
+[2.317s] running build
+[2.317s] running build_py
+[2.318s] copying pkg_myname/listener.py -> /home/user/School/cs898cd/ros_projects/build/pkg_myname/build/lib/pkg_myname
+[2.319s] copying pkg_myname/speaker.py -> /home/user/School/cs898cd/ros_projects/build/pkg_myname/build/lib/pkg_myname
+[2.319s] running install
+[2.332s] running install_lib
+[2.381s] copying /home/user/School/cs898cd/ros_projects/build/pkg_myname/build/lib/pkg_myname/listener.py -> /home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages/pkg_myname
+[2.383s] copying /home/user/School/cs898cd/ros_projects/build/pkg_myname/build/lib/pkg_myname/speaker.py -> /home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages/pkg_myname
+[2.383s] byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages/pkg_myname/listener.py to listener.cpython-312.pyc
+[2.383s] byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages/pkg_myname/speaker.py to speaker.cpython-312.pyc
+[2.385s] running install_data
+[2.387s] running install_egg_info
+[2.423s] removing '/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages/pkg_myname-0.0.0-py3.12.egg-info' (and everything under it)
+[2.424s] Copying ../../build/pkg_myname/pkg_myname.egg-info to /home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages/pkg_myname-0.0.0-py3.12.egg-info
+[2.425s] running install_scripts
+[2.649s] Installing listener script to /home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/pkg_myname
+[2.651s] Installing speaker script to /home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/pkg_myname
+[2.653s] writing list of installed files to '/home/user/School/cs898cd/ros_projects/build/pkg_myname/install.log'
+[2.719s] Invoked command in '/home/user/School/cs898cd/ros_projects/src/pkg_myname' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_myname/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_myname build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_myname/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_myname/install.log --single-version-externally-managed install_data

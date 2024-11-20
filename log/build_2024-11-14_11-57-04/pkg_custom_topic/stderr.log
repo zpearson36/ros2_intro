@@ -1,0 +1,5 @@
+  File "/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic/listener.py", line 3
+    fro base_interfaces.msg import Student
+        ^^^^^^^^^^^^^^^
+SyntaxError: invalid syntax
+

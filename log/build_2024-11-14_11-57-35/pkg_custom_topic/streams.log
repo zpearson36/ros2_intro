@@ -1,0 +1,25 @@
+[1.842s] Invoking command in '/home/user/School/cs898cd/ros_projects/src/pkg_custom_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_custom_topic build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log --single-version-externally-managed install_data
+[2.402s] running egg_info
+[2.454s] writing ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/PKG-INFO
+[2.454s] writing dependency_links to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/dependency_links.txt
+[2.455s] writing entry points to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/entry_points.txt
+[2.459s] writing requirements to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/requires.txt
+[2.459s] writing top-level names to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/top_level.txt
+[2.555s] reading manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+[2.555s] writing manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+[2.567s] running build
+[2.567s] running build_py
+[2.567s] copying pkg_custom_topic/listener.py -> /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic
+[2.569s] running install
+[2.585s] running install_lib
+[2.627s] copying /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic/listener.py -> /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic
+[2.627s] byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic/listener.py to listener.cpython-312.pyc
+[2.629s] running install_data
+[2.629s] running install_egg_info
+[2.680s] removing '/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[2.681s] Copying ../../build/pkg_custom_topic/pkg_custom_topic.egg-info to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic-0.0.0-py3.12.egg-info
+[2.683s] running install_scripts
+[2.977s] Installing listener script to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/pkg_custom_topic
+[2.977s] Installing speaker script to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/pkg_custom_topic
+[2.979s] writing list of installed files to '/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log'
+[3.040s] Invoked command in '/home/user/School/cs898cd/ros_projects/src/pkg_custom_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_custom_topic build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log --single-version-externally-managed install_data

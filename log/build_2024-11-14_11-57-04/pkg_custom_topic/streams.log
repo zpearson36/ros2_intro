@@ -1,0 +1,33 @@
+[1.755s] Invoking command in '/home/user/School/cs898cd/ros_projects/src/pkg_custom_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_custom_topic build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log --single-version-externally-managed install_data
+[2.356s] running egg_info
+[2.403s] writing ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/PKG-INFO
+[2.404s] writing dependency_links to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/dependency_links.txt
+[2.405s] writing entry points to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/entry_points.txt
+[2.410s] writing requirements to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/requires.txt
+[2.410s] writing top-level names to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/top_level.txt
+[2.529s] reading manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+[2.533s] writing manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+[2.533s] running build
+[2.534s] running build_py
+[2.534s] copying pkg_custom_topic/listener.py -> /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic
+[2.535s] copying pkg_custom_topic/speaker.py -> /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic
+[2.535s] running install
+[2.558s] running install_lib
+[2.601s] copying /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic/listener.py -> /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic
+[2.602s] copying /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build/lib/pkg_custom_topic/speaker.py -> /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic
+[2.603s] byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic/listener.py to listener.cpython-312.pyc
+[2.603s]   File "/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic/listener.py", line 3
+[2.603s]     fro base_interfaces.msg import Student
+[2.603s]         ^^^^^^^^^^^^^^^
+[2.604s] SyntaxError: invalid syntax
+[2.605s] 
+[2.605s] byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic/speaker.py to speaker.cpython-312.pyc
+[2.606s] running install_data
+[2.606s] running install_egg_info
+[2.655s] removing '/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[2.658s] Copying ../../build/pkg_custom_topic/pkg_custom_topic.egg-info to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic-0.0.0-py3.12.egg-info
+[2.660s] running install_scripts
+[2.959s] Installing listener script to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/pkg_custom_topic
+[2.961s] Installing speaker script to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/pkg_custom_topic
+[2.962s] writing list of installed files to '/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log'
+[3.025s] Invoked command in '/home/user/School/cs898cd/ros_projects/src/pkg_custom_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com LD_LIBRARY_PATH=/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib:${LD_LIBRARY_PATH} PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_custom_topic build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log --single-version-externally-managed install_data

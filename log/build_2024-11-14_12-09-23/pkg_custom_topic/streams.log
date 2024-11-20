@@ -1,0 +1,22 @@
+[1.623s] Invoking command in '/home/user/School/cs898cd/ros_projects/src/pkg_custom_topic': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_custom_topic build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log --single-version-externally-managed install_data
+[2.315s] running egg_info
+[2.358s] writing ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/PKG-INFO
+[2.360s] writing dependency_links to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/dependency_links.txt
+[2.360s] writing entry points to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/entry_points.txt
+[2.362s] writing requirements to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/requires.txt
+[2.363s] writing top-level names to ../../build/pkg_custom_topic/pkg_custom_topic.egg-info/top_level.txt
+[2.454s] reading manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+[2.457s] writing manifest file '../../build/pkg_custom_topic/pkg_custom_topic.egg-info/SOURCES.txt'
+[2.457s] running build
+[2.457s] running build_py
+[2.458s] running install
+[2.473s] running install_lib
+[2.519s] running install_data
+[2.519s] running install_egg_info
+[2.566s] removing '/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic-0.0.0-py3.12.egg-info' (and everything under it)
+[2.567s] Copying ../../build/pkg_custom_topic/pkg_custom_topic.egg-info to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages/pkg_custom_topic-0.0.0-py3.12.egg-info
+[2.569s] running install_scripts
+[2.878s] Installing listener script to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/pkg_custom_topic
+[2.878s] Installing speaker script to /home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/pkg_custom_topic
+[2.880s] writing list of installed files to '/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log'
+[2.957s] Invoked command in '/home/user/School/cs898cd/ros_projects/src/pkg_custom_topic' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:${PYTHONPATH} /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_custom_topic build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_custom_topic/install.log --single-version-externally-managed install_data

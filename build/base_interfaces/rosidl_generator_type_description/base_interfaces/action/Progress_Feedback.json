@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfaces/action/Progress_Feedback",
+      "fields": [
+        {
+          "name": "current",
+          "type": {
+            "type_id": 6,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfaces/action/Progress_Feedback",
+      "hash_string": "RIHS01_0daf943ae22a411dca76dde81ff8021f5cc16a45379fd8462cdb44673e939463"
+    }
+  ]
+}

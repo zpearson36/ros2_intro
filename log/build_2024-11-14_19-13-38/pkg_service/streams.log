@@ -1,0 +1,25 @@
+[2.790s] Invoking command in '/home/user/School/cs898cd/ros_projects/src/pkg_service': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_service build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_service/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_service/install.log --single-version-externally-managed install_data
+[3.913s] running egg_info
+[3.958s] writing ../../build/pkg_service/pkg_service.egg-info/PKG-INFO
+[3.959s] writing dependency_links to ../../build/pkg_service/pkg_service.egg-info/dependency_links.txt
+[3.959s] writing entry points to ../../build/pkg_service/pkg_service.egg-info/entry_points.txt
+[3.962s] writing requirements to ../../build/pkg_service/pkg_service.egg-info/requires.txt
+[3.963s] writing top-level names to ../../build/pkg_service/pkg_service.egg-info/top_level.txt
+[4.049s] reading manifest file '../../build/pkg_service/pkg_service.egg-info/SOURCES.txt'
+[4.051s] writing manifest file '../../build/pkg_service/pkg_service.egg-info/SOURCES.txt'
+[4.051s] running build
+[4.052s] running build_py
+[4.053s] copying pkg_service/server.py -> /home/user/School/cs898cd/ros_projects/build/pkg_service/build/lib/pkg_service
+[4.056s] running install
+[4.067s] running install_lib
+[4.105s] copying /home/user/School/cs898cd/ros_projects/build/pkg_service/build/lib/pkg_service/server.py -> /home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages/pkg_service
+[4.105s] byte-compiling /home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages/pkg_service/server.py to server.cpython-312.pyc
+[4.108s] running install_data
+[4.108s] running install_egg_info
+[4.158s] removing '/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages/pkg_service-0.0.0-py3.12.egg-info' (and everything under it)
+[4.160s] Copying ../../build/pkg_service/pkg_service.egg-info to /home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages/pkg_service-0.0.0-py3.12.egg-info
+[4.162s] running install_scripts
+[4.442s] Installing client script to /home/user/School/cs898cd/ros_projects/install/pkg_service/lib/pkg_service
+[4.443s] Installing server script to /home/user/School/cs898cd/ros_projects/install/pkg_service/lib/pkg_service
+[4.445s] writing list of installed files to '/home/user/School/cs898cd/ros_projects/build/pkg_service/install.log'
+[4.511s] Invoked command in '/home/user/School/cs898cd/ros_projects/src/pkg_service' returned '0': DEBUGINFOD_URLS=https://debuginfod.ubuntu.com PYTHONPATH=/home/user/School/cs898cd/ros_projects/build/pkg_service/prefix_override:/usr/lib/python3/dist-packages/colcon_core/task/python/colcon_distutils_commands:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_service/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages /usr/bin/python3 -W ignore:setup.py install is deprecated setup.py egg_info --egg-base ../../build/pkg_service build --build-base /home/user/School/cs898cd/ros_projects/build/pkg_service/build install --record /home/user/School/cs898cd/ros_projects/build/pkg_service/install.log --single-version-externally-managed install_data

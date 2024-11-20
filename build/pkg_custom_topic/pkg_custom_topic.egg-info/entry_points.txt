@@ -1,0 +1,3 @@
+[console_scripts]
+listener = pkg_custom_topic.listener:main
+speaker = pkg_custom_topic.speaker:main

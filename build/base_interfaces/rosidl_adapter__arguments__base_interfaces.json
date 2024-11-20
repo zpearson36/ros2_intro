@@ -1,0 +1,8 @@
+{
+  "package_name": "base_interfaces",
+  "non_idl_tuples": [
+    "/home/user/School/cs898cd/ros_projects/src/base_interfaces:msg/Student.msg",
+    "/home/user/School/cs898cd/ros_projects/src/base_interfaces:srv/Student.srv",
+    "/home/user/School/cs898cd/ros_projects/src/base_interfaces:action/Progress.action"
+  ]
+}

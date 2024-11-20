@@ -1,0 +1,270 @@
+[0.016s] Invoking command in '/home/user/School/cs898cd/ros_projects/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/School/cs898cd/ros_projects/build/base_interfaces -- -j1 -l1
+[0.060s] -- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)
+[0.105s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter 
+[0.225s] -- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)
+[0.230s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.272s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.330s] -- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)
+[0.780s] -- Found ament_cmake_ros: 0.13.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)
+[0.932s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[1.089s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[1.090s] -- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)
+[1.537s] -- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed 
+[1.563s] -- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)
+[1.576s] -- Added test 'lint_cmake' to check CMake code style
+[1.577s] -- Added test 'xmllint' to check XML markup files
+[1.579s] -- Configuring done (1.5s)
+[1.626s] -- Generating done (0.0s)
+[1.636s] -- Build files have been written to: /home/user/School/cs898cd/ros_projects/build/base_interfaces
+[1.703s] [  2%] [34m[1mGenerating type hashes for ROS interfaces[0m
+[2.003s] [  2%] Built target base_interfaces__rosidl_generator_type_description
+[2.012s] [  4%] [34m[1mGenerating C code for ROS interfaces[0m
+[2.531s] [  6%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/student__description.c.o[0m
+[2.591s] [  9%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/student__functions.c.o[0m
+[2.651s] [ 11%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/student__type_support.c.o[0m
+[2.702s] [ 13%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/student__description.c.o[0m
+[2.784s] [ 15%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/student__functions.c.o[0m
+[2.886s] [ 18%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/srv/detail/student__type_support.c.o[0m
+[2.922s] [ 20%] [32m[1mLinking C shared library libbase_interfaces__rosidl_generator_c.so[0m
+[2.987s] [ 20%] Built target base_interfaces__rosidl_generator_c
+[2.997s] [ 22%] [34m[1mGenerating C introspection for ROS interfaces[0m
+[3.419s] [ 25%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/msg/detail/student__type_support.c.o[0m
+[3.470s] [ 27%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/srv/detail/student__type_support.c.o[0m
+[3.530s] [ 29%] [32m[1mLinking C shared library libbase_interfaces__rosidl_typesupport_introspection_c.so[0m
+[3.592s] [ 29%] Built target base_interfaces__rosidl_typesupport_introspection_c
+[3.609s] [ 31%] [34m[1mGenerating C type support dispatch for ROS interfaces[0m
+[3.984s] [ 34%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/msg/student__type_support.cpp.o[0m
+[4.024s] [ 36%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/srv/student__type_support.cpp.o[0m
+[4.099s] [ 38%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_c.so[0m
+[4.144s] [ 38%] Built target base_interfaces__rosidl_typesupport_c
+[4.184s] [ 40%] [34m[1mGenerating C++ code for ROS interfaces[0m
+[4.621s] [ 40%] Built target base_interfaces__cpp
+[4.630s] [ 43%] [34m[1mGenerating C++ type support for eProsima Fast-RTPS[0m
+[5.145s] [ 45%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/msg/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[6.004s] [ 47%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/srv/detail/dds_fastrtps/student__type_support.cpp.o[0m
+[7.118s] [ 50%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so[0m
+[7.225s] [ 50%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp
+[7.241s] [ 52%] [34m[1mGenerating C++ introspection for ROS interfaces[0m
+[7.647s] [ 54%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/msg/detail/student__type_support.cpp.o[0m
+[8.177s] [ 56%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/srv/detail/student__type_support.cpp.o[0m
+[8.910s] [ 59%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_introspection_cpp.so[0m
+[9.039s] [ 59%] Built target base_interfaces__rosidl_typesupport_introspection_cpp
+[9.058s] [ 61%] [34m[1mGenerating C++ type support dispatch for ROS interfaces[0m
+[9.417s] [ 63%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/msg/student__type_support.cpp.o[0m
+[10.178s] [ 65%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/srv/student__type_support.cpp.o[0m
+[10.854s] [ 68%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_cpp.so[0m
+[11.001s] [ 68%] Built target base_interfaces__rosidl_typesupport_cpp
+[11.016s] [ 70%] [34m[1mGenerating C type support for eProsima Fast-RTPS[0m
+[11.530s] [ 72%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/msg/detail/student__type_support_c.cpp.o[0m
+[12.347s] [ 75%] [32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/srv/detail/student__type_support_c.cpp.o[0m
+[13.233s] [ 77%] [32m[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_c.so[0m
+[13.331s] [ 77%] Built target base_interfaces__rosidl_typesupport_fastrtps_c
+[13.349s] [ 77%] Built target base_interfaces
+[13.394s] [ 77%] Built target ament_cmake_python_copy_base_interfaces
+[13.747s] running egg_info
+[13.796s] writing base_interfaces.egg-info/PKG-INFO
+[13.797s] writing dependency_links to base_interfaces.egg-info/dependency_links.txt
+[13.797s] writing top-level names to base_interfaces.egg-info/top_level.txt
+[13.871s] reading manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[13.871s] writing manifest file 'base_interfaces.egg-info/SOURCES.txt'
+[13.934s] [ 77%] Built target ament_cmake_python_build_base_interfaces_egg
+[13.968s] [ 79%] [34m[1mGenerating Python code for ROS interfaces[0m
+[14.661s] [ 79%] Built target base_interfaces__py
+[14.698s] [ 81%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/msg/_student_s.c.o[0m
+[14.932s] [ 84%] [32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/srv/_student_s.c.o[0m
+[15.217s] [ 86%] [32m[1mLinking C shared library libbase_interfaces__rosidl_generator_py.so[0m
+[15.281s] [ 86%] Built target base_interfaces__rosidl_generator_py
+[15.318s] [ 88%] [32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o[0m
+[15.512s] [ 90%] [32m[1mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so[0m
+[15.574s] [ 90%] Built target base_interfaces_s__rosidl_typesupport_fastrtps_c
+[15.611s] [ 93%] [32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o[0m
+[15.802s] [ 95%] [32m[1mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so[0m
+[15.853s] [ 95%] Built target base_interfaces_s__rosidl_typesupport_introspection_c
+[15.892s] [ 97%] [32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c.o[0m
+[16.074s] [100%] [32m[1mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so[0m
+[16.105s] [100%] Built target base_interfaces_s__rosidl_typesupport_c
+[16.126s] Invoked command in '/home/user/School/cs898cd/ros_projects/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --build /home/user/School/cs898cd/ros_projects/build/base_interfaces -- -j1 -l1
+[16.239s] Invoking command in '/home/user/School/cs898cd/ros_projects/build/base_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/School/cs898cd/ros_projects/build/base_interfaces
+[16.254s] -- Install configuration: ""
+[16.254s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces
+[16.254s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/msg/Student.json
+[16.255s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/srv/Student.json
+[16.255s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces
+[16.255s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[16.255s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/student.h
+[16.256s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[16.256s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__struct.h
+[16.256s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__type_support.c
+[16.256s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__description.c
+[16.256s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__functions.c
+[16.257s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__type_support.h
+[16.257s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__functions.h
+[16.257s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[16.257s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/student.h
+[16.257s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h
+[16.258s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[16.258s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__struct.h
+[16.258s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.c
+[16.258s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__description.c
+[16.258s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__functions.c
+[16.259s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.h
+[16.259s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__functions.h
+[16.259s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/library_path.sh
+[16.259s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/library_path.dsv
+[16.259s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so
+[16.260s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so" to ""
+[16.261s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces
+[16.262s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[16.263s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[16.263s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__rosidl_typesupport_fastrtps_c.h
+[16.263s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[16.263s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h
+[16.263s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[16.263s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_c.h
+[16.264s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so
+[16.264s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so" to ""
+[16.264s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces
+[16.264s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[16.265s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[16.265s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__type_support.c
+[16.265s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__rosidl_typesupport_introspection_c.h
+[16.265s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[16.265s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h
+[16.266s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[16.266s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.c
+[16.266s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_introspection_c.h
+[16.271s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so
+[16.272s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so" to ""
+[16.272s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so
+[16.273s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so" to ""
+[16.273s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces
+[16.273s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[16.273s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/student.hpp
+[16.274s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[16.274s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__traits.hpp
+[16.274s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__type_support.hpp
+[16.276s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__struct.hpp
+[16.276s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__builder.hpp
+[16.276s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[16.277s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/student.hpp
+[16.277s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp
+[16.277s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[16.278s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__traits.hpp
+[16.278s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.hpp
+[16.278s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__struct.hpp
+[16.279s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__builder.hpp
+[16.279s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces
+[16.280s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[16.280s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[16.280s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[16.281s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/dds_fastrtps
+[16.281s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[16.281s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h
+[16.282s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[16.282s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp
+[16.282s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/dds_fastrtps
+[16.283s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so
+[16.284s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""
+[16.285s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces
+[16.285s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv
+[16.285s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail
+[16.286s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__type_support.cpp
+[16.286s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/srv/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[16.287s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg
+[16.287s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail
+[16.287s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.cpp
+[16.287s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp
+[16.289s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so
+[16.289s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so" to ""
+[16.290s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so
+[16.291s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so" to ""
+[16.291s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh
+[16.291s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv
+[16.291s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info
+[16.291s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt
+[16.291s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info/PKG-INFO
+[16.292s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info/top_level.txt
+[16.292s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt
+[16.292s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces
+[16.292s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c
+[16.293s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so
+[16.293s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c
+[16.293s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so
+[16.293s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[16.293s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/srv
+[16.294s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/srv/_student_s.c
+[16.294s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/srv/_student.py
+[16.294s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/srv/__init__.py
+[16.294s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c
+[16.295s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg
+[16.295s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/_student_s.c
+[16.295s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/_student.py
+[16.295s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/__init__.py
+[16.296s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/__init__.py
+[16.373s] Listing '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces'...
+[16.373s] Compiling '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/__init__.py'...
+[16.373s] Listing '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg'...
+[16.373s] Compiling '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/__init__.py'...
+[16.373s] Compiling '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/_student.py'...
+[16.373s] Listing '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/srv'...
+[16.373s] Compiling '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/srv/__init__.py'...
+[16.374s] Compiling '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/srv/_student.py'...
+[16.387s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so
+[16.387s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""
+[16.387s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so
+[16.387s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so" to ""
+[16.387s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so
+[16.388s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so" to ""
+[16.388s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so
+[16.388s] -- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so" to ""
+[16.388s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/msg/Student.idl
+[16.389s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/srv/Student.idl
+[16.389s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/msg/Student.msg
+[16.389s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/srv/Student.srv
+[16.389s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces
+[16.390s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces
+[16.390s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh
+[16.391s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv
+[16.391s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/path.sh
+[16.391s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/path.dsv
+[16.391s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/local_setup.bash
+[16.391s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/local_setup.sh
+[16.391s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/local_setup.zsh
+[16.391s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/local_setup.dsv
+[16.391s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/package.dsv
+[16.391s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces
+[16.391s] -- Old export file "/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake" will be replaced.  Removing files [/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake].
+[16.391s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake
+[16.391s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake
+[16.391s] -- Old export file "/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake" will be replaced.  Removing files [/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake].
+[16.392s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake
+[16.392s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake
+[16.392s] -- Old export file "/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake" will be replaced.  Removing files [/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake].
+[16.392s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake
+[16.393s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake
+[16.393s] -- Old export file "/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake" will be replaced.  Removing files [/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake].
+[16.393s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake
+[16.394s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake
+[16.394s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake
+[16.395s] -- Old export file "/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake" will be replaced.  Removing files [/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake].
+[16.395s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake
+[16.395s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake
+[16.396s] -- Old export file "/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake" will be replaced.  Removing files [/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake].
+[16.396s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake
+[16.396s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake
+[16.396s] -- Old export file "/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake" will be replaced.  Removing files [/home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake].
+[16.397s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake
+[16.397s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake
+[16.397s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake
+[16.399s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake
+[16.399s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake
+[16.399s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake
+[16.399s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake
+[16.399s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake
+[16.399s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake
+[16.399s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake
+[16.399s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake
+[16.400s] -- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake
+[16.400s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake
+[16.400s] -- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/package.xml
+[16.404s] Invoked command in '/home/user/School/cs898cd/ros_projects/build/base_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling DEBUGINFOD_URLS=https://debuginfod.ubuntu.com /usr/bin/cmake --install /home/user/School/cs898cd/ros_projects/build/base_interfaces

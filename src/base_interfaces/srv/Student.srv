@@ -1,0 +1,7 @@
+string id
+---
+string  name
+int32   age
+string  index
+int32   height
+float64 ratio

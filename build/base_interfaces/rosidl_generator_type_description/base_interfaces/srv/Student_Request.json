@@ -1,0 +1,26 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfaces/srv/Student_Request",
+      "fields": [
+        {
+          "name": "id",
+          "type": {
+            "type_id": 17,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": []
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfaces/srv/Student_Request",
+      "hash_string": "RIHS01_0f47124ce3f634e8d1d04d644064cc1aa6b9ed64564411f042f7ed8a0e948901"
+    }
+  ]
+}

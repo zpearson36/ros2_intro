@@ -1,0 +1,23 @@
+// generated from rosidl_adapter/resource/srv.idl.em
+// with input from base_interfaces/srv/Student.srv
+// generated code does not contain a copyright notice
+
+
+module base_interfaces {
+  module srv {
+    struct Student_Request {
+      string id;
+    };
+    struct Student_Response {
+      string name;
+
+      int32 age;
+
+      string index;
+
+      int32 height;
+
+      double ratio;
+    };
+  };
+};

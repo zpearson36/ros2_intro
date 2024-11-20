@@ -1,0 +1,367 @@
+[0.000000] (-) TimerEvent: {}
+[0.001928] (-) JobUnselected: {'identifier': 'pkg_custom_topic'}
+[0.001962] (-) JobUnselected: {'identifier': 'pkg_myname'}
+[0.001979] (base_interfaces) JobQueued: {'identifier': 'base_interfaces', 'dependencies': OrderedDict()}
+[0.001994] (base_interfaces) JobStarted: {'identifier': 'base_interfaces'}
+[0.016228] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'cmake'}
+[0.017886] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'build'}
+[0.018328] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/user/School/cs898cd/ros_projects/build/base_interfaces', '--', '-j1', '-l1'], 'cwd': '/home/user/School/cs898cd/ros_projects/build/base_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/School/cs898cd/ros_projects/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2144', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/School/cs898cd/ros_projects/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-VirtualBox:@/tmp/.ICE-unix/2103,unix/user-VirtualBox:/tmp/.ICE-unix/2103', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5585981f_61d4_4e56_bea3_2a6cd4342652', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IT0EX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/base_interfaces:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/School/cs898cd/ros_projects/build/base_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/School/cs898cd/ros_projects/install/base_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling'}), 'shell': False}
+[0.081538] (base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake: 2.7.0 (/opt/ros/rolling/share/ament_cmake/cmake)\n'}
+[0.101019] (-) TimerEvent: {}
+[0.142020] (base_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter \n'}
+[0.201543] (-) TimerEvent: {}
+[0.303540] (-) TimerEvent: {}
+[0.330738] (base_interfaces) StdoutLine: {'line': b'-- Found rosidl_default_generators: 1.7.1 (/opt/ros/rolling/share/rosidl_default_generators/cmake)\n'}
+[0.335370] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.401619] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.403597] (-) TimerEvent: {}
+[0.462174] (base_interfaces) StdoutLine: {'line': b'-- Found rosidl_adapter: 4.8.1 (/opt/ros/rolling/share/rosidl_adapter/cmake)\n'}
+[0.505090] (-) TimerEvent: {}
+[0.609509] (-) TimerEvent: {}
+[0.709941] (-) TimerEvent: {}
+[0.814059] (-) TimerEvent: {}
+[0.914315] (-) TimerEvent: {}
+[1.003275] (base_interfaces) StdoutLine: {'line': b'-- Found ament_cmake_ros: 0.13.0 (/opt/ros/rolling/share/ament_cmake_ros/cmake)\n'}
+[1.017584] (-) TimerEvent: {}
+[1.118127] (-) TimerEvent: {}
+[1.197198] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[1.218266] (-) TimerEvent: {}
+[1.320135] (-) TimerEvent: {}
+[1.423573] (-) TimerEvent: {}
+[1.437294] (base_interfaces) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[1.440595] (base_interfaces) StdoutLine: {'line': b'-- Found python_cmake_module: 0.12.0 (/opt/ros/rolling/share/python_cmake_module/cmake)\n'}
+[1.524534] (-) TimerEvent: {}
+[1.624919] (-) TimerEvent: {}
+[1.726023] (-) TimerEvent: {}
+[1.827598] (-) TimerEvent: {}
+[1.929329] (-) TimerEvent: {}
+[2.027735] (base_interfaces) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3 (found version "3.12.3") found components: Interpreter Development NumPy Development.Module Development.Embed \n'}
+[2.032933] (-) TimerEvent: {}
+[2.054074] (base_interfaces) StdoutLine: {'line': b'-- Found ament_lint_auto: 0.18.1 (/opt/ros/rolling/share/ament_lint_auto/cmake)\n'}
+[2.069078] (base_interfaces) StdoutLine: {'line': b"-- Added test 'lint_cmake' to check CMake code style\n"}
+[2.070119] (base_interfaces) StdoutLine: {'line': b"-- Added test 'xmllint' to check XML markup files\n"}
+[2.073518] (base_interfaces) StdoutLine: {'line': b'-- Configuring done (2.0s)\n'}
+[2.133557] (-) TimerEvent: {}
+[2.143365] (base_interfaces) StdoutLine: {'line': b'-- Generating done (0.1s)\n'}
+[2.160569] (base_interfaces) StdoutLine: {'line': b'-- Build files have been written to: /home/user/School/cs898cd/ros_projects/build/base_interfaces\n'}
+[2.226493] (base_interfaces) StdoutLine: {'line': b'[  2%] \x1b[34m\x1b[1mGenerating type hashes for ROS interfaces\x1b[0m\n'}
+[2.234517] (-) TimerEvent: {}
+[2.336857] (-) TimerEvent: {}
+[2.438635] (-) TimerEvent: {}
+[2.544378] (-) TimerEvent: {}
+[2.645646] (-) TimerEvent: {}
+[2.746176] (-) TimerEvent: {}
+[2.758819] (base_interfaces) StdoutLine: {'line': b'[  2%] Built target base_interfaces__rosidl_generator_type_description\n'}
+[2.778595] (base_interfaces) StdoutLine: {'line': b'[  5%] \x1b[34m\x1b[1mGenerating C code for ROS interfaces\x1b[0m\n'}
+[2.851661] (-) TimerEvent: {}
+[2.952050] (-) TimerEvent: {}
+[3.052658] (-) TimerEvent: {}
+[3.154866] (-) TimerEvent: {}
+[3.259038] (-) TimerEvent: {}
+[3.362058] (-) TimerEvent: {}
+[3.441899] (base_interfaces) StdoutLine: {'line': b'[  8%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/student__description.c.o\x1b[0m\n'}
+[3.463600] (-) TimerEvent: {}
+[3.512708] (base_interfaces) StdoutLine: {'line': b'[ 11%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/student__functions.c.o\x1b[0m\n'}
+[3.566926] (-) TimerEvent: {}
+[3.607056] (base_interfaces) StdoutLine: {'line': b'[ 14%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_c.dir/rosidl_generator_c/base_interfaces/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[3.662529] (base_interfaces) StdoutLine: {'line': b'[ 17%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_generator_c.so\x1b[0m\n'}
+[3.667070] (-) TimerEvent: {}
+[3.734439] (base_interfaces) StdoutLine: {'line': b'[ 17%] Built target base_interfaces__rosidl_generator_c\n'}
+[3.755526] (base_interfaces) StdoutLine: {'line': b'[ 20%] \x1b[34m\x1b[1mGenerating C introspection for ROS interfaces\x1b[0m\n'}
+[3.768016] (-) TimerEvent: {}
+[3.869536] (-) TimerEvent: {}
+[3.971615] (-) TimerEvent: {}
+[4.074149] (-) TimerEvent: {}
+[4.174746] (-) TimerEvent: {}
+[4.260610] (base_interfaces) StdoutLine: {'line': b'[ 23%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_c.dir/rosidl_typesupport_introspection_c/base_interfaces/msg/detail/student__type_support.c.o\x1b[0m\n'}
+[4.275548] (-) TimerEvent: {}
+[4.340569] (base_interfaces) StdoutLine: {'line': b'[ 26%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[4.376580] (-) TimerEvent: {}
+[4.394528] (base_interfaces) StdoutLine: {'line': b'[ 26%] Built target base_interfaces__rosidl_typesupport_introspection_c\n'}
+[4.411719] (base_interfaces) StdoutLine: {'line': b'[ 29%] \x1b[34m\x1b[1mGenerating C type support dispatch for ROS interfaces\x1b[0m\n'}
+[4.476712] (-) TimerEvent: {}
+[4.578677] (-) TimerEvent: {}
+[4.679884] (-) TimerEvent: {}
+[4.781050] (-) TimerEvent: {}
+[4.879616] (base_interfaces) StdoutLine: {'line': b'[ 32%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_c.dir/rosidl_typesupport_c/base_interfaces/msg/student__type_support.cpp.o\x1b[0m\n'}
+[4.881578] (-) TimerEvent: {}
+[4.966710] (base_interfaces) StdoutLine: {'line': b'[ 35%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_c.so\x1b[0m\n'}
+[4.984077] (-) TimerEvent: {}
+[5.046805] (base_interfaces) StdoutLine: {'line': b'[ 35%] Built target base_interfaces__rosidl_typesupport_c\n'}
+[5.084218] (-) TimerEvent: {}
+[5.091519] (base_interfaces) StdoutLine: {'line': b'[ 38%] \x1b[34m\x1b[1mGenerating C++ code for ROS interfaces\x1b[0m\n'}
+[5.186090] (-) TimerEvent: {}
+[5.286380] (-) TimerEvent: {}
+[5.388403] (-) TimerEvent: {}
+[5.493527] (-) TimerEvent: {}
+[5.577620] (base_interfaces) StdoutLine: {'line': b'[ 38%] Built target base_interfaces__cpp\n'}
+[5.593703] (-) TimerEvent: {}
+[5.601532] (base_interfaces) StdoutLine: {'line': b'[ 41%] \x1b[34m\x1b[1mGenerating C++ type support for eProsima Fast-RTPS\x1b[0m\n'}
+[5.693831] (-) TimerEvent: {}
+[5.798070] (-) TimerEvent: {}
+[5.898453] (-) TimerEvent: {}
+[5.999633] (-) TimerEvent: {}
+[6.079952] (base_interfaces) StdoutLine: {'line': b'[ 44%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_cpp.dir/rosidl_typesupport_fastrtps_cpp/base_interfaces/msg/detail/dds_fastrtps/student__type_support.cpp.o\x1b[0m\n'}
+[6.101182] (-) TimerEvent: {}
+[6.201711] (-) TimerEvent: {}
+[6.304660] (-) TimerEvent: {}
+[6.404998] (-) TimerEvent: {}
+[6.511562] (-) TimerEvent: {}
+[6.611857] (-) TimerEvent: {}
+[6.712896] (-) TimerEvent: {}
+[6.814176] (-) TimerEvent: {}
+[6.915993] (-) TimerEvent: {}
+[6.989593] (base_interfaces) StdoutLine: {'line': b'[ 47%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\x1b[0m\n'}
+[7.016965] (-) TimerEvent: {}
+[7.118007] (-) TimerEvent: {}
+[7.119947] (base_interfaces) StdoutLine: {'line': b'[ 47%] Built target base_interfaces__rosidl_typesupport_fastrtps_cpp\n'}
+[7.141537] (base_interfaces) StdoutLine: {'line': b'[ 50%] \x1b[34m\x1b[1mGenerating C++ introspection for ROS interfaces\x1b[0m\n'}
+[7.218863] (-) TimerEvent: {}
+[7.324792] (-) TimerEvent: {}
+[7.426757] (-) TimerEvent: {}
+[7.527876] (-) TimerEvent: {}
+[7.621067] (base_interfaces) StdoutLine: {'line': b'[ 52%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_introspection_cpp.dir/rosidl_typesupport_introspection_cpp/base_interfaces/msg/detail/student__type_support.cpp.o\x1b[0m\n'}
+[7.629209] (-) TimerEvent: {}
+[7.730329] (-) TimerEvent: {}
+[7.834025] (-) TimerEvent: {}
+[7.934815] (-) TimerEvent: {}
+[8.036544] (-) TimerEvent: {}
+[8.138638] (-) TimerEvent: {}
+[8.240361] (-) TimerEvent: {}
+[8.292000] (base_interfaces) StdoutLine: {'line': b'[ 55%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_introspection_cpp.so\x1b[0m\n'}
+[8.342772] (-) TimerEvent: {}
+[8.410006] (base_interfaces) StdoutLine: {'line': b'[ 55%] Built target base_interfaces__rosidl_typesupport_introspection_cpp\n'}
+[8.423677] (base_interfaces) StdoutLine: {'line': b'[ 58%] \x1b[34m\x1b[1mGenerating C++ type support dispatch for ROS interfaces\x1b[0m\n'}
+[8.443294] (-) TimerEvent: {}
+[8.545780] (-) TimerEvent: {}
+[8.647299] (-) TimerEvent: {}
+[8.749724] (-) TimerEvent: {}
+[8.828825] (base_interfaces) StdoutLine: {'line': b'[ 61%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_cpp.dir/rosidl_typesupport_cpp/base_interfaces/msg/student__type_support.cpp.o\x1b[0m\n'}
+[8.851551] (-) TimerEvent: {}
+[8.952766] (-) TimerEvent: {}
+[9.053322] (-) TimerEvent: {}
+[9.156383] (-) TimerEvent: {}
+[9.257030] (-) TimerEvent: {}
+[9.357325] (-) TimerEvent: {}
+[9.444567] (base_interfaces) StdoutLine: {'line': b'[ 64%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_cpp.so\x1b[0m\n'}
+[9.457471] (-) TimerEvent: {}
+[9.515711] (base_interfaces) StdoutLine: {'line': b'[ 64%] Built target base_interfaces__rosidl_typesupport_cpp\n'}
+[9.524559] (base_interfaces) StdoutLine: {'line': b'[ 67%] \x1b[34m\x1b[1mGenerating C type support for eProsima Fast-RTPS\x1b[0m\n'}
+[9.557651] (-) TimerEvent: {}
+[9.659784] (-) TimerEvent: {}
+[9.760908] (-) TimerEvent: {}
+[9.865266] (-) TimerEvent: {}
+[9.934322] (base_interfaces) StdoutLine: {'line': b'[ 70%] \x1b[32mBuilding CXX object CMakeFiles/base_interfaces__rosidl_typesupport_fastrtps_c.dir/rosidl_typesupport_fastrtps_c/base_interfaces/msg/detail/student__type_support_c.cpp.o\x1b[0m\n'}
+[9.967180] (-) TimerEvent: {}
+[10.067735] (-) TimerEvent: {}
+[10.171202] (-) TimerEvent: {}
+[10.272547] (-) TimerEvent: {}
+[10.374545] (-) TimerEvent: {}
+[10.475706] (-) TimerEvent: {}
+[10.577299] (-) TimerEvent: {}
+[10.678811] (-) TimerEvent: {}
+[10.781401] (-) TimerEvent: {}
+[10.885693] (-) TimerEvent: {}
+[10.985986] (-) TimerEvent: {}
+[11.090655] (-) TimerEvent: {}
+[11.147296] (base_interfaces) StdoutLine: {'line': b'[ 73%] \x1b[32m\x1b[1mLinking CXX shared library libbase_interfaces__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[11.192153] (-) TimerEvent: {}
+[11.292696] (-) TimerEvent: {}
+[11.310246] (base_interfaces) StdoutLine: {'line': b'[ 73%] Built target base_interfaces__rosidl_typesupport_fastrtps_c\n'}
+[11.352271] (base_interfaces) StdoutLine: {'line': b'[ 73%] Built target base_interfaces\n'}
+[11.392760] (-) TimerEvent: {}
+[11.424003] (base_interfaces) StdoutLine: {'line': b'[ 73%] Built target ament_cmake_python_copy_base_interfaces\n'}
+[11.495715] (-) TimerEvent: {}
+[11.596293] (-) TimerEvent: {}
+[11.697528] (-) TimerEvent: {}
+[11.798692] (-) TimerEvent: {}
+[11.898953] (-) TimerEvent: {}
+[11.903223] (base_interfaces) StdoutLine: {'line': b'running egg_info\n'}
+[11.954099] (base_interfaces) StdoutLine: {'line': b'writing base_interfaces.egg-info/PKG-INFO\n'}
+[11.954235] (base_interfaces) StdoutLine: {'line': b'writing dependency_links to base_interfaces.egg-info/dependency_links.txt\n'}
+[11.954568] (base_interfaces) StdoutLine: {'line': b'writing top-level names to base_interfaces.egg-info/top_level.txt\n'}
+[12.001716] (-) TimerEvent: {}
+[12.092177] (base_interfaces) StdoutLine: {'line': b"reading manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[12.092370] (base_interfaces) StdoutLine: {'line': b"writing manifest file 'base_interfaces.egg-info/SOURCES.txt'\n"}
+[12.102301] (-) TimerEvent: {}
+[12.166596] (base_interfaces) StdoutLine: {'line': b'[ 73%] Built target ament_cmake_python_build_base_interfaces_egg\n'}
+[12.204657] (-) TimerEvent: {}
+[12.210538] (base_interfaces) StdoutLine: {'line': b'[ 76%] \x1b[34m\x1b[1mGenerating Python code for ROS interfaces\x1b[0m\n'}
+[12.305260] (-) TimerEvent: {}
+[12.406536] (-) TimerEvent: {}
+[12.507691] (-) TimerEvent: {}
+[12.610735] (-) TimerEvent: {}
+[12.711957] (-) TimerEvent: {}
+[12.812245] (-) TimerEvent: {}
+[12.866343] (base_interfaces) StdoutLine: {'line': b'[ 76%] Built target base_interfaces__py\n'}
+[12.916441] (-) TimerEvent: {}
+[12.917902] (base_interfaces) StdoutLine: {'line': b'[ 79%] \x1b[32mBuilding C object CMakeFiles/base_interfaces__rosidl_generator_py.dir/rosidl_generator_py/base_interfaces/msg/_student_s.c.o\x1b[0m\n'}
+[13.018549] (-) TimerEvent: {}
+[13.118955] (-) TimerEvent: {}
+[13.190606] (base_interfaces) StdoutLine: {'line': b'[ 82%] \x1b[32m\x1b[1mLinking C shared library libbase_interfaces__rosidl_generator_py.so\x1b[0m\n'}
+[13.219103] (-) TimerEvent: {}
+[13.276531] (base_interfaces) StdoutLine: {'line': b'[ 82%] Built target base_interfaces__rosidl_generator_py\n'}
+[13.317596] (base_interfaces) StdoutLine: {'line': b'[ 85%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_fastrtps_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c.o\x1b[0m\n'}
+[13.320003] (-) TimerEvent: {}
+[13.421545] (-) TimerEvent: {}
+[13.523018] (-) TimerEvent: {}
+[13.539650] (base_interfaces) StdoutLine: {'line': b'[ 88%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so\x1b[0m\n'}
+[13.603587] (base_interfaces) StdoutLine: {'line': b'[ 88%] Built target base_interfaces_s__rosidl_typesupport_fastrtps_c\n'}
+[13.624085] (-) TimerEvent: {}
+[13.647187] (base_interfaces) StdoutLine: {'line': b'[ 91%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_introspection_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c.o\x1b[0m\n'}
+[13.724198] (-) TimerEvent: {}
+[13.826172] (-) TimerEvent: {}
+[13.879896] (base_interfaces) StdoutLine: {'line': b'[ 94%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so\x1b[0m\n'}
+[13.926735] (-) TimerEvent: {}
+[13.939794] (base_interfaces) StdoutLine: {'line': b'[ 94%] Built target base_interfaces_s__rosidl_typesupport_introspection_c\n'}
+[13.997043] (base_interfaces) StdoutLine: {'line': b'[ 97%] \x1b[32mBuilding C object CMakeFiles/base_interfaces_s__rosidl_typesupport_c.dir/rosidl_generator_py/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c.o\x1b[0m\n'}
+[14.026934] (-) TimerEvent: {}
+[14.128813] (-) TimerEvent: {}
+[14.220055] (base_interfaces) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking C shared module rosidl_generator_py/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so\x1b[0m\n'}
+[14.230518] (-) TimerEvent: {}
+[14.282749] (base_interfaces) StdoutLine: {'line': b'[100%] Built target base_interfaces_s__rosidl_typesupport_c\n'}
+[14.313528] (base_interfaces) CommandEnded: {'returncode': 0}
+[14.332701] (-) TimerEvent: {}
+[14.434113] (-) TimerEvent: {}
+[14.442235] (base_interfaces) JobProgress: {'identifier': 'base_interfaces', 'progress': 'install'}
+[14.463566] (base_interfaces) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/user/School/cs898cd/ros_projects/build/base_interfaces'], 'cwd': '/home/user/School/cs898cd/ros_projects/build/base_interfaces', 'env': OrderedDict({'LESSOPEN': '| /usr/bin/lesspipe %s', 'USER': 'user', 'XDG_SESSION_TYPE': 'wayland', 'SHLVL': '1', 'LD_LIBRARY_PATH': '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib:/opt/ros/rolling/opt/rviz_ogre_vendor/lib:/opt/ros/rolling/lib/x86_64-linux-gnu:/opt/ros/rolling/opt/gz_math_vendor/lib:/opt/ros/rolling/opt/gz_utils_vendor/lib:/opt/ros/rolling/opt/gz_cmake_vendor/lib:/opt/ros/rolling/lib', 'HOME': '/home/user', 'OLDPWD': '/home/user/School/cs898cd/ros_projects/src', 'DESKTOP_SESSION': 'ubuntu', 'ROS_PYTHON_VERSION': '3', 'GNOME_SHELL_SESSION_MODE': 'ubuntu', 'GTK_MODULES': 'gail:atk-bridge', 'SYSTEMD_EXEC_PID': '2144', 'GSM_SKIP_SSH_AGENT_WORKAROUND': 'true', 'DBUS_SESSION_BUS_ADDRESS': 'unix:path=/run/user/1000/bus', 'COLORTERM': 'truecolor', 'DEBUGINFOD_URLS': 'https://debuginfod.ubuntu.com', 'IM_CONFIG_PHASE': '1', 'WAYLAND_DISPLAY': 'wayland-0', 'COLCON_PREFIX_PATH': '/home/user/School/cs898cd/ros_projects/install', 'ROS_DISTRO': 'rolling', 'LOGNAME': 'user', '_': '/usr/bin/colcon', 'ROS_VERSION': '2', 'MEMORY_PRESSURE_WATCH': '/sys/fs/cgroup/user.slice/user-1000.slice/user@1000.service/session.slice/org.gnome.Shell@wayland.service/memory.pressure', 'XDG_SESSION_CLASS': 'user', 'USERNAME': 'user', 'TERM': 'xterm-256color', 'GNOME_DESKTOP_SESSION_ID': 'this-is-deprecated', 'PATH': '/opt/ros/rolling/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin', 'SESSION_MANAGER': 'local/user-VirtualBox:@/tmp/.ICE-unix/2103,unix/user-VirtualBox:/tmp/.ICE-unix/2103', 'XDG_MENU_PREFIX': 'gnome-', 'GNOME_TERMINAL_SCREEN': '/org/gnome/Terminal/screen/5585981f_61d4_4e56_bea3_2a6cd4342652', 'GNOME_SETUP_DISPLAY': ':1', 'XDG_RUNTIME_DIR': '/run/user/1000', 'DISPLAY': ':0', 'LANG': 'en_US.UTF-8', 'XDG_CURRENT_DESKTOP': 'ubuntu:GNOME', 'XMODIFIERS': '@im=ibus', 'XDG_SESSION_DESKTOP': 'ubuntu', 'XAUTHORITY': '/run/user/1000/.mutter-Xwaylandauth.IT0EX2', 'LS_COLORS': 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=00:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.avif=01;35:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:*~=00;90:*#=00;90:*.bak=00;90:*.crdownload=00;90:*.dpkg-dist=00;90:*.dpkg-new=00;90:*.dpkg-old=00;90:*.dpkg-tmp=00;90:*.old=00;90:*.orig=00;90:*.part=00;90:*.rej=00;90:*.rpmnew=00;90:*.rpmorig=00;90:*.rpmsave=00;90:*.swp=00;90:*.tmp=00;90:*.ucf-dist=00;90:*.ucf-new=00;90:*.ucf-old=00;90:', 'GNOME_TERMINAL_SERVICE': ':1.137', 'SSH_AUTH_SOCK': '/run/user/1000/keyring/ssh', 'AMENT_PREFIX_PATH': '/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/base_interfaces:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling', 'SHELL': '/bin/bash', 'QT_ACCESSIBILITY': '1', 'GDMSESSION': 'ubuntu', 'LESSCLOSE': '/usr/bin/lesspipe %s %s', 'ROS_AUTOMATIC_DISCOVERY_RANGE': 'SUBNET', 'QT_IM_MODULE': 'ibus', 'PWD': '/home/user/School/cs898cd/ros_projects/build/base_interfaces', 'XDG_CONFIG_DIRS': '/etc/xdg/xdg-ubuntu:/etc/xdg', 'XDG_DATA_DIRS': '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop', 'PYTHONPATH': '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic/lib/python3.12/site-packages:/home/user/School/cs898cd/ros_projects/install/pkg_myname/lib/python3.12/site-packages:/opt/ros/rolling/lib/python3.12/site-packages', 'COLCON': '1', 'MEMORY_PRESSURE_WRITE': 'c29tZSAyMDAwMDAgMjAwMDAwMAA=', 'VTE_VERSION': '7600', 'CMAKE_PREFIX_PATH': '/home/user/School/cs898cd/ros_projects/install/base_interfaces:/opt/ros/rolling/opt/gz_math_vendor:/opt/ros/rolling/opt/gz_utils_vendor:/opt/ros/rolling/opt/gz_cmake_vendor:/home/user/School/cs898cd/ros_projects/install/pkg_custom_topic:/home/user/School/cs898cd/ros_projects/install/pkg_myname:/opt/ros/rolling'}), 'shell': False}
+[14.481563] (base_interfaces) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[14.481929] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/ament_index/resource_index/rosidl_interfaces/base_interfaces\n'}
+[14.481996] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/msg/Student.json\n'}
+[14.483616] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.483711] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.483770] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/student.h\n'}
+[14.483824] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_c__visibility_control.h\n'}
+[14.483878] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[14.484082] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__struct.h\n'}
+[14.484504] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.c\n'}
+[14.484723] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__description.c\n'}
+[14.485619] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__functions.c\n'}
+[14.485842] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.h\n'}
+[14.486048] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__functions.h\n'}
+[14.486519] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/library_path.sh\n'}
+[14.487558] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/library_path.dsv\n'}
+[14.488034] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so\n'}
+[14.488145] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_c.so" to ""\n'}
+[14.488517] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.489569] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.489650] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_c__visibility_control.h\n'}
+[14.491547] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[14.491639] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_c.h\n'}
+[14.491698] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so\n'}
+[14.491758] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.491813] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.491866] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.491917] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_introspection_c__visibility_control.h\n'}
+[14.491973] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[14.492023] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.c\n'}
+[14.492073] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_introspection_c.h\n'}
+[14.492233] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so\n'}
+[14.493636] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.493869] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so\n'}
+[14.494197] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_c.so" to ""\n'}
+[14.494403] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.495419] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.495820] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/student.hpp\n'}
+[14.495898] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_generator_cpp__visibility_control.hpp\n'}
+[14.500721] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[14.501755] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__traits.hpp\n'}
+[14.501860] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.hpp\n'}
+[14.502145] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__struct.hpp\n'}
+[14.502226] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__builder.hpp\n'}
+[14.503178] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.503274] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.503333] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/rosidl_typesupport_fastrtps_cpp__visibility_control.h\n'}
+[14.503390] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[14.505182] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_fastrtps_cpp.hpp\n'}
+[14.505257] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/dds_fastrtps\n'}
+[14.505315] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so\n'}
+[14.505406] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_fastrtps_cpp.so" to ""\n'}
+[14.505466] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces\n'}
+[14.505520] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg\n'}
+[14.505573] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail\n'}
+[14.505625] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__type_support.cpp\n'}
+[14.507116] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/include/base_interfaces/base_interfaces/msg/detail/student__rosidl_typesupport_introspection_cpp.hpp\n'}
+[14.507210] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so\n'}
+[14.507883] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_introspection_cpp.so" to ""\n'}
+[14.508141] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so\n'}
+[14.508878] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_typesupport_cpp.so" to ""\n'}
+[14.509897] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/pythonpath.sh\n'}
+[14.510111] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/pythonpath.dsv\n'}
+[14.510272] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info\n'}
+[14.510425] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info/dependency_links.txt\n'}
+[14.510828] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info/PKG-INFO\n'}
+[14.511890] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info/top_level.txt\n'}
+[14.512166] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces-0.0.0-py3.12.egg-info/SOURCES.txt\n'}
+[14.512298] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces\n'}
+[14.512901] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_fastrtps_c.c\n'}
+[14.513016] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.513959] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_c.c\n'}
+[14.514205] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.514605] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.515857] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/_base_interfaces_s.ep.rosidl_typesupport_introspection_c.c\n'}
+[14.516161] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg\n'}
+[14.516242] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/_student_s.c\n'}
+[14.516659] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/_student.py\n'}
+[14.517637] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/__init__.py\n'}
+[14.518280] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/__init__.py\n'}
+[14.534282] (-) TimerEvent: {}
+[14.609283] (base_interfaces) StdoutLine: {'line': b"Listing '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces'...\n"}
+[14.609424] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/__init__.py'...\n"}
+[14.609485] (base_interfaces) StdoutLine: {'line': b"Listing '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg'...\n"}
+[14.609541] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/__init__.py'...\n"}
+[14.609593] (base_interfaces) StdoutLine: {'line': b"Compiling '/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/msg/_student.py'...\n"}
+[14.621009] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so\n'}
+[14.621436] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_fastrtps_c.so" to ""\n'}
+[14.622690] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so\n'}
+[14.623019] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_introspection_c.so" to ""\n'}
+[14.623282] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so\n'}
+[14.624514] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/python3.12/site-packages/base_interfaces/base_interfaces_s__rosidl_typesupport_c.so" to ""\n'}
+[14.624775] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so\n'}
+[14.625107] (base_interfaces) StdoutLine: {'line': b'-- Set non-toolchain portion of runtime path of "/home/user/School/cs898cd/ros_projects/install/base_interfaces/lib/libbase_interfaces__rosidl_generator_py.so" to ""\n'}
+[14.625698] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/msg/Student.idl\n'}
+[14.626632] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/msg/Student.msg\n'}
+[14.626751] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/ament_index/resource_index/package_run_dependencies/base_interfaces\n'}
+[14.626953] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/ament_index/resource_index/parent_prefix_path/base_interfaces\n'}
+[14.627048] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.sh\n'}
+[14.627566] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/ament_prefix_path.dsv\n'}
+[14.627781] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/path.sh\n'}
+[14.628509] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/environment/path.dsv\n'}
+[14.628679] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/local_setup.bash\n'}
+[14.628837] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/local_setup.sh\n'}
+[14.630128] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/local_setup.zsh\n'}
+[14.630246] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/local_setup.dsv\n'}
+[14.630318] (base_interfaces) StdoutLine: {'line': b'-- Installing: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/package.dsv\n'}
+[14.630373] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/ament_index/resource_index/packages/base_interfaces\n'}
+[14.630429] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport.cmake\n'}
+[14.636638] (-) TimerEvent: {}
+[14.638808] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cExport-noconfig.cmake\n'}
+[14.638914] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport.cmake\n'}
+[14.638975] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cExport-noconfig.cmake\n'}
+[14.639072] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport.cmake\n'}
+[14.639150] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cExport-noconfig.cmake\n'}
+[14.639205] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport.cmake\n'}
+[14.639259] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cExport-noconfig.cmake\n'}
+[14.643334] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_cppExport.cmake\n'}
+[14.643458] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport.cmake\n'}
+[14.643521] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_typesupport_fastrtps_cppExport-noconfig.cmake\n'}
+[14.643578] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport.cmake\n'}
+[14.643633] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_introspection_cppExport-noconfig.cmake\n'}
+[14.643686] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport.cmake\n'}
+[14.643752] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfaces__rosidl_typesupport_cppExport-noconfig.cmake\n'}
+[14.643806] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport.cmake\n'}
+[14.643858] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/export_base_interfaces__rosidl_generator_pyExport-noconfig.cmake\n'}
+[14.643910] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake-extras.cmake\n'}
+[14.648164] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_include_directories-extras.cmake\n'}
+[14.648234] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_libraries-extras.cmake\n'}
+[14.648336] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_targets-extras.cmake\n'}
+[14.648394] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_targets-extras.cmake\n'}
+[14.648449] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/ament_cmake_export_dependencies-extras.cmake\n'}
+[14.648503] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/rosidl_cmake_export_typesupport_libraries-extras.cmake\n'}
+[14.648557] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig.cmake\n'}
+[14.648611] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/cmake/base_interfacesConfig-version.cmake\n'}
+[14.648664] (base_interfaces) StdoutLine: {'line': b'-- Up-to-date: /home/user/School/cs898cd/ros_projects/install/base_interfaces/share/base_interfaces/package.xml\n'}
+[14.660535] (base_interfaces) CommandEnded: {'returncode': 0}
+[14.736767] (-) TimerEvent: {}
+[14.828499] (base_interfaces) JobEnded: {'identifier': 'base_interfaces', 'rc': 0}
+[14.830150] (-) EventReactorShutdown: {}

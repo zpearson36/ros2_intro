@@ -1,0 +1,56 @@
+{
+  "type_description_msg": {
+    "type_description": {
+      "type_name": "base_interfaces/action/Progress_GetResult_Response",
+      "fields": [
+        {
+          "name": "status",
+          "type": {
+            "type_id": 2,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": ""
+          },
+          "default_value": ""
+        },
+        {
+          "name": "result",
+          "type": {
+            "type_id": 1,
+            "capacity": 0,
+            "string_capacity": 0,
+            "nested_type_name": "base_interfaces/action/Progress_Result"
+          },
+          "default_value": ""
+        }
+      ]
+    },
+    "referenced_type_descriptions": [
+      {
+        "type_name": "base_interfaces/action/Progress_Result",
+        "fields": [
+          {
+            "name": "complete",
+            "type": {
+              "type_id": 17,
+              "capacity": 0,
+              "string_capacity": 0,
+              "nested_type_name": ""
+            },
+            "default_value": ""
+          }
+        ]
+      }
+    ]
+  },
+  "type_hashes": [
+    {
+      "type_name": "base_interfaces/action/Progress_GetResult_Response",
+      "hash_string": "RIHS01_e4cc9131bd5ed28b8724686283ca2c8a601507e235736518257deddc328abd44"
+    },
+    {
+      "type_name": "base_interfaces/action/Progress_Result",
+      "hash_string": "RIHS01_09d507b0368cd43df46d1301f280dd9c74eb5394505b97d789310b89cd811856"
+    }
+  ]
+}
